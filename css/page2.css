@@ -1,0 +1,53 @@
+body {
+    font-size: 0.9em;
+    background-color: #e5eaf5;
+}
+.photo {
+    grid-area: photo;
+    padding: 5px; 
+    border-right: thick solid #494d5f;
+    border-left: thick solid #494d5f; 
+    background-color: #baaad6;
+    text-align: center;
+    
+}
+.info {
+    grid-area: info; 
+    padding: 5px; 
+    border-right: thick solid #494d5f; 
+    background-color: #d0bdf4;
+    padding: 30px 0;
+}
+.gridArea {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas:
+	"photo info"
+	;
+	gap: 5px;
+    padding: 5px 0;
+    margin: 2px;
+}
+.headerFormatting{
+    text-align: center;
+    color: #383b49;
+    font-family: 'Times New Roman', Times, serif;
+}
+.anchorCSS {
+    margin :5px 0;
+    padding: 5px; 
+    background-color: ivory; 
+    color: #494d5f; 
+    width: 100%;
+    font-weight: bold; 
+    text-decoration:none; 
+    box-shadow: 2px 2px 2px black;
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+}
+.anchorButton{
+    text-align: left;
+    margin:10px 0; 
+    padding-top: 10px ;
+    width: 100%;
+}
